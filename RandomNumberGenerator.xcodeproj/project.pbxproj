@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081396F51A214A7F00E5AF3A /* krkr.png in Resources */ = {isa = PBXBuildFile; fileRef = 081396F41A214A7F00E5AF3A /* krkr.png */; };
+		087C84811A21324800E789F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087C84801A21324800E789F7 /* main.m */; };
+		087C84841A21324800E789F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087C84831A21324800E789F7 /* AppDelegate.m */; };
+		087C84871A21324800E789F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087C84861A21324800E789F7 /* ViewController.m */; };
+		087C848A1A21324800E789F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087C84881A21324800E789F7 /* Main.storyboard */; };
+		087C848C1A21324800E789F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087C848B1A21324800E789F7 /* Images.xcassets */; };
+		087C848F1A21324800E789F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087C848D1A21324800E789F7 /* LaunchScreen.xib */; };
+		087C849B1A21324900E789F7 /* RandomNumberGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087C849A1A21324900E789F7 /* RandomNumberGeneratorTests.m */; };
+		087C84AB1A21424400E789F7 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087C84AA1A21424400E789F7 /* WatchKit.framework */; };
+		087C84B21A21424400E789F7 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087C84B11A21424400E789F7 /* InterfaceController.m */; };
+		087C84B51A21424400E789F7 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087C84B41A21424400E789F7 /* NotificationController.m */; };
+		087C84B71A21424400E789F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087C84B61A21424400E789F7 /* Images.xcassets */; };
+		087C84BB1A21424400E789F7 /* RandomNumberGenerator Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 087C84BA1A21424400E789F7 /* RandomNumberGenerator Watch App.app */; };
+		087C84C21A21424400E789F7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087C84C11A21424400E789F7 /* Interface.storyboard */; };
+		087C84C41A21424400E789F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087C84C31A21424400E789F7 /* Images.xcassets */; };
+		087C84C71A21424400E789F7 /* RandomNumberGenerator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 087C84A81A21424400E789F7 /* RandomNumberGenerator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		087C84951A21324800E789F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 087C84731A21324800E789F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087C847A1A21324800E789F7;
+			remoteInfo = RandomNumberGenerator;
+		};
+		087C84BC1A21424400E789F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 087C84731A21324800E789F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087C84B91A21424400E789F7;
+			remoteInfo = "RandomNumberGenerator Watch App";
+		};
+		087C84C51A21424400E789F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 087C84731A21324800E789F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087C84A71A21424400E789F7;
+			remoteInfo = "RandomNumberGenerator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		087C84CE1A21424400E789F7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				087C84C71A21424400E789F7 /* RandomNumberGenerator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		081396F41A214A7F00E5AF3A /* krkr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = krkr.png; path = ../../../Desktop/krkr.png; sourceTree = "<group>"; };
+		087C847B1A21324800E789F7 /* RandomNumberGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomNumberGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087C847F1A21324800E789F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087C84801A21324800E789F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		087C84821A21324800E789F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		087C84831A21324800E789F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		087C84851A21324800E789F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		087C84861A21324800E789F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		087C84891A21324800E789F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		087C848B1A21324800E789F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		087C848E1A21324800E789F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		087C84941A21324800E789F7 /* RandomNumberGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomNumberGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		087C84991A21324900E789F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087C849A1A21324900E789F7 /* RandomNumberGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomNumberGeneratorTests.m; sourceTree = "<group>"; };
+		087C84A81A21424400E789F7 /* RandomNumberGenerator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RandomNumberGenerator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		087C84AA1A21424400E789F7 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		087C84AE1A21424400E789F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087C84AF1A21424400E789F7 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		087C84B01A21424400E789F7 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		087C84B11A21424400E789F7 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		087C84B31A21424400E789F7 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		087C84B41A21424400E789F7 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		087C84B61A21424400E789F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		087C84BA1A21424400E789F7 /* RandomNumberGenerator Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RandomNumberGenerator Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		087C84C01A21424400E789F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087C84C11A21424400E789F7 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		087C84C31A21424400E789F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087C84781A21324800E789F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087C84911A21324800E789F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087C84A51A21424400E789F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087C84AB1A21424400E789F7 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087C84721A21324800E789F7 = {
+			isa = PBXGroup;
+			children = (
+				087C847D1A21324800E789F7 /* RandomNumberGenerator */,
+				087C84971A21324900E789F7 /* RandomNumberGeneratorTests */,
+				087C84AC1A21424400E789F7 /* RandomNumberGenerator WatchKit Extension */,
+				087C84BE1A21424400E789F7 /* RandomNumberGenerator Watch App */,
+				087C84A91A21424400E789F7 /* Frameworks */,
+				087C847C1A21324800E789F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		087C847C1A21324800E789F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				087C847B1A21324800E789F7 /* RandomNumberGenerator.app */,
+				087C84941A21324800E789F7 /* RandomNumberGeneratorTests.xctest */,
+				087C84A81A21424400E789F7 /* RandomNumberGenerator WatchKit Extension.appex */,
+				087C84BA1A21424400E789F7 /* RandomNumberGenerator Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		087C847D1A21324800E789F7 /* RandomNumberGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				087C84821A21324800E789F7 /* AppDelegate.h */,
+				087C84831A21324800E789F7 /* AppDelegate.m */,
+				087C84851A21324800E789F7 /* ViewController.h */,
+				087C84861A21324800E789F7 /* ViewController.m */,
+				087C84881A21324800E789F7 /* Main.storyboard */,
+				087C848B1A21324800E789F7 /* Images.xcassets */,
+				087C848D1A21324800E789F7 /* LaunchScreen.xib */,
+				087C847E1A21324800E789F7 /* Supporting Files */,
+			);
+			path = RandomNumberGenerator;
+			sourceTree = "<group>";
+		};
+		087C847E1A21324800E789F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087C847F1A21324800E789F7 /* Info.plist */,
+				087C84801A21324800E789F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		087C84971A21324900E789F7 /* RandomNumberGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				087C849A1A21324900E789F7 /* RandomNumberGeneratorTests.m */,
+				087C84981A21324900E789F7 /* Supporting Files */,
+			);
+			path = RandomNumberGeneratorTests;
+			sourceTree = "<group>";
+		};
+		087C84981A21324900E789F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087C84991A21324900E789F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		087C84A91A21424400E789F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087C84AA1A21424400E789F7 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		087C84AC1A21424400E789F7 /* RandomNumberGenerator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				087C84B01A21424400E789F7 /* InterfaceController.h */,
+				087C84B11A21424400E789F7 /* InterfaceController.m */,
+				087C84B31A21424400E789F7 /* NotificationController.h */,
+				087C84B41A21424400E789F7 /* NotificationController.m */,
+				087C84B61A21424400E789F7 /* Images.xcassets */,
+				087C84AD1A21424400E789F7 /* Supporting Files */,
+			);
+			path = "RandomNumberGenerator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		087C84AD1A21424400E789F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087C84AE1A21424400E789F7 /* Info.plist */,
+				087C84AF1A21424400E789F7 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		087C84BE1A21424400E789F7 /* RandomNumberGenerator Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				087C84C11A21424400E789F7 /* Interface.storyboard */,
+				087C84C31A21424400E789F7 /* Images.xcassets */,
+				081396F41A214A7F00E5AF3A /* krkr.png */,
+				087C84BF1A21424400E789F7 /* Supporting Files */,
+			);
+			path = "RandomNumberGenerator Watch App";
+			sourceTree = "<group>";
+		};
+		087C84BF1A21424400E789F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087C84C01A21424400E789F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		087C847A1A21324800E789F7 /* RandomNumberGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087C849E1A21324900E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGenerator" */;
+			buildPhases = (
+				087C84771A21324800E789F7 /* Sources */,
+				087C84781A21324800E789F7 /* Frameworks */,
+				087C84791A21324800E789F7 /* Resources */,
+				087C84CE1A21424400E789F7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087C84C61A21424400E789F7 /* PBXTargetDependency */,
+			);
+			name = RandomNumberGenerator;
+			productName = RandomNumberGenerator;
+			productReference = 087C847B1A21324800E789F7 /* RandomNumberGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		087C84931A21324800E789F7 /* RandomNumberGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087C84A11A21324900E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGeneratorTests" */;
+			buildPhases = (
+				087C84901A21324800E789F7 /* Sources */,
+				087C84911A21324800E789F7 /* Frameworks */,
+				087C84921A21324800E789F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087C84961A21324800E789F7 /* PBXTargetDependency */,
+			);
+			name = RandomNumberGeneratorTests;
+			productName = RandomNumberGeneratorTests;
+			productReference = 087C84941A21324800E789F7 /* RandomNumberGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		087C84A71A21424400E789F7 /* RandomNumberGenerator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087C84CB1A21424400E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGenerator WatchKit Extension" */;
+			buildPhases = (
+				087C84A41A21424400E789F7 /* Sources */,
+				087C84A51A21424400E789F7 /* Frameworks */,
+				087C84A61A21424400E789F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				087C84BD1A21424400E789F7 /* PBXTargetDependency */,
+			);
+			name = "RandomNumberGenerator WatchKit Extension";
+			productName = "RandomNumberGenerator WatchKit Extension";
+			productReference = 087C84A81A21424400E789F7 /* RandomNumberGenerator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		087C84B91A21424400E789F7 /* RandomNumberGenerator Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087C84C81A21424400E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGenerator Watch App" */;
+			buildPhases = (
+				087C84B81A21424400E789F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RandomNumberGenerator Watch App";
+			productName = "RandomNumberGenerator Watch App";
+			productReference = 087C84BA1A21424400E789F7 /* RandomNumberGenerator Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		087C84731A21324800E789F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Bennett Gaddes";
+				TargetAttributes = {
+					087C847A1A21324800E789F7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					087C84931A21324800E789F7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 087C847A1A21324800E789F7;
+					};
+					087C84A71A21424400E789F7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					087C84B91A21424400E789F7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 087C84761A21324800E789F7 /* Build configuration list for PBXProject "RandomNumberGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 087C84721A21324800E789F7;
+			productRefGroup = 087C847C1A21324800E789F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				087C847A1A21324800E789F7 /* RandomNumberGenerator */,
+				087C84931A21324800E789F7 /* RandomNumberGeneratorTests */,
+				087C84A71A21424400E789F7 /* RandomNumberGenerator WatchKit Extension */,
+				087C84B91A21424400E789F7 /* RandomNumberGenerator Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087C84791A21324800E789F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087C848A1A21324800E789F7 /* Main.storyboard in Resources */,
+				087C848F1A21324800E789F7 /* LaunchScreen.xib in Resources */,
+				087C848C1A21324800E789F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087C84921A21324800E789F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087C84A61A21424400E789F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087C84B71A21424400E789F7 /* Images.xcassets in Resources */,
+				087C84BB1A21424400E789F7 /* RandomNumberGenerator Watch App.app in Resources */,
+				081396F51A214A7F00E5AF3A /* krkr.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087C84B81A21424400E789F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087C84C21A21424400E789F7 /* Interface.storyboard in Resources */,
+				087C84C41A21424400E789F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087C84771A21324800E789F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087C84871A21324800E789F7 /* ViewController.m in Sources */,
+				087C84841A21324800E789F7 /* AppDelegate.m in Sources */,
+				087C84811A21324800E789F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087C84901A21324800E789F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087C849B1A21324900E789F7 /* RandomNumberGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087C84A41A21424400E789F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087C84B51A21424400E789F7 /* NotificationController.m in Sources */,
+				087C84B21A21424400E789F7 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		087C84961A21324800E789F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087C847A1A21324800E789F7 /* RandomNumberGenerator */;
+			targetProxy = 087C84951A21324800E789F7 /* PBXContainerItemProxy */;
+		};
+		087C84BD1A21424400E789F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087C84B91A21424400E789F7 /* RandomNumberGenerator Watch App */;
+			targetProxy = 087C84BC1A21424400E789F7 /* PBXContainerItemProxy */;
+		};
+		087C84C61A21424400E789F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087C84A71A21424400E789F7 /* RandomNumberGenerator WatchKit Extension */;
+			targetProxy = 087C84C51A21424400E789F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		087C84881A21324800E789F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087C84891A21324800E789F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		087C848D1A21324800E789F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087C848E1A21324800E789F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		087C849C1A21324900E789F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		087C849D1A21324900E789F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		087C849F1A21324900E789F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RandomNumberGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		087C84A01A21324900E789F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RandomNumberGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		087C84A21A21324900E789F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RandomNumberGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomNumberGenerator.app/RandomNumberGenerator";
+			};
+			name = Debug;
+		};
+		087C84A31A21324900E789F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RandomNumberGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomNumberGenerator.app/RandomNumberGenerator";
+			};
+			name = Release;
+		};
+		087C84C91A21424400E789F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = RandomNumberGenerator_WatchKit_Extension;
+				INFOPLIST_FILE = "RandomNumberGenerator Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		087C84CA1A21424400E789F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = RandomNumberGenerator_WatchKit_Extension;
+				INFOPLIST_FILE = "RandomNumberGenerator Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		087C84CC1A21424400E789F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RandomNumberGenerator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		087C84CD1A21424400E789F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RandomNumberGenerator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087C84761A21324800E789F7 /* Build configuration list for PBXProject "RandomNumberGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087C849C1A21324900E789F7 /* Debug */,
+				087C849D1A21324900E789F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087C849E1A21324900E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087C849F1A21324900E789F7 /* Debug */,
+				087C84A01A21324900E789F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087C84A11A21324900E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087C84A21A21324900E789F7 /* Debug */,
+				087C84A31A21324900E789F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087C84C81A21424400E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGenerator Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087C84C91A21424400E789F7 /* Debug */,
+				087C84CA1A21424400E789F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		087C84CB1A21424400E789F7 /* Build configuration list for PBXNativeTarget "RandomNumberGenerator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087C84CC1A21424400E789F7 /* Debug */,
+				087C84CD1A21424400E789F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 087C84731A21324800E789F7 /* Project object */;
+}
